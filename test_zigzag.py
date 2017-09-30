@@ -1,7 +1,7 @@
-from zigzag1 import Solution
+from zigzag1 import Solution as Solution1
 
 def test_zigzag():
-    solution = Solution()
+    solution = Solution1()
     s = solution.convert('PAYPALISHIRING', 3)
     assert s == 'PAHNAPLSIIGYIR'
 
