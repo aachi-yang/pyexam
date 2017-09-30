@@ -11,6 +11,9 @@ def test_zigzag():
     s = solution.convert('01234567890', 4)
     assert s == '06157248039'
 
+    s = solution.convert('01', 1)
+    assert s == '01'
+
 '''
 from cProfile import Profile
 from pstats import Stats
